@@ -1,113 +1,152 @@
-import Image from 'next/image'
+import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+function page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
+    <div className="w-full flex flex-col items-center pb-10 pt-6">
+      <div className="text-center bg-violet-600 text-5xl uppercase font-bold py-3">
+        <h2 className="px-2">spots are limited! </h2>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
+      <div className=" flex justify-center w-full pt-6 ">
+        <h2 className="text-center md:w-9/12 text-md px-8 md:px-0 md:text-2xl leading-8 md:leading-9 capitalize">
+          I have <span className="text-violet-600">limited availability</span>{" "}
+          for this exclusive training experience designed specifically for
+          ambitious foodprenuers. Once we&apos;re filled up, the doors close -
+          so make sure you secure your spot now!
+        </h2>
+      </div>
+      <div className="mt-6 mb-4">
+        <h1 className="capitalize text-center text-5xl font-extrabold ">
+          the business of food accelerator masterclass 🔥
+        </h1>
+      </div>
+
+      <div className="my-4 mx-8">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+          width={450}
+          height={500}
+          src="https://ik.imagekit.io/jsklle928/Online_/IMG_2946.jpg?updatedAt=1689010847423"
+          alt="578,000 in sales"
         />
+        <h4 className="text-center mt-2 text-lg">(1 Year Sales Report)</h4>
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+      <div className="mx-4  text-xl leading-9 ">
+        <h3 className="py-2 capitalize">
+          <span className="text-2xl">✅</span> Master the art of leveraging your
+          website and social media for{" "}
+          <span className="text-violet-400 capitalize">
+            Maximized customer reach and higher sales
+          </span>
+        </h3>
+        <h3 className="py-2 capitalize">
+          <span className="text-2xl">✅</span> Learn the secrets to building an
+          A-team who will{" "}
+          <span className="text-violet-400 capitalize">
+            Help your business soar to new heights
+          </span>
+        </h3>
+        <h3 className="py-2 capitalize">
+          <span className="text-2xl">✅</span> Acquire knowledge of the most
+          effective systems that will{" "}
+          <span className="text-violet-400 capitalize">
+            Streamline your operations, improve efficiency, and profitability
+          </span>
+        </h3>
+        <h3 className="py-2 capitalize">
+          <span className="text-2xl">✅</span> Discover the techniques for
+          <span className="text-violet-400 capitalize pl-1">
+            Pricing your menu competitevely while still maintaining excellent
+            profit margins{" "}
+          </span>
+        </h3>
+        <h3 className="py-2 capitalize">
+          <span className="text-2xl">✅</span> Equip yourself with the skills
+          and strategies to{" "}
+          <span className="text-violet-400 capitalize">
+            Conquer every aspect of the food business,
+          </span>{" "}
+          from start-up to scaling
+        </h3>
       </div>
-    </main>
-  )
+
+      <div>
+        <h2 className="text-4xl text-center font-bold mx-6 mt-2">
+          Join me LIVE on July 14th at 8PM EST!
+        </h2>
+        <h4 className="text-center text-xl tracking-wide mt-2">
+          (Replay Will Be Available)
+        </h4>
+      </div>
+      <div className="my-4">
+        <h1 className="text-violet-400 text-5xl font-bold underline underline-offset-8">
+          ⭐️ Bonuses ⭐️
+        </h1>
+      </div>
+      <div className="md:w-9/12">
+        <h2 className="mx-6 text-center text-lg capitalize md:leading-8 md:mt-4">
+          🔥 If you&apos;re on of the first 10 people to register, not only will
+          you have access to the full masterclass replay whenever you need it,
+          but you&apos;ll also receive an exclusive one on one bonus coaching
+          call where we&apos;ll strategize your business growth, review your
+          current strategies, and address any questions or challenges you may be
+          facing.{" "}
+        </h2>
+        <h2 className="mx-6 mt-4 md:mt-8 text-center text-lg capitalize">
+          🔥 If you can&apos;t make the live call there will be a full replay
+          avaialable for you for that never expires.
+        </h2>
+        <h2 className="mx-6 mt-4 md:mt-8  text-center text-lg capitalize">
+          🔥 There will be a live Q&A call after the presentation where you can
+          ask all of your questions. We will stay on for questions for as long
+          as there are questions to ask!
+        </h2>
+      </div>
+
+      <div className="mt-6 flex items-center">
+        <h2 className="text-3xl animate-bounce">👉</h2>
+        <a href="https://buy.stripe.com/aEU6pOcyJ5Cl8k86pf" target="blank">
+          <button className="bg-violet-600 py-4 px-10 text-xl font-bold tracking-wide uppercase rounded-full mx-4">
+            Reserve Your Spot Now
+          </button>
+        </a>
+        <h2
+          className="text-3xl animate-bounce
+        "
+        >
+          👈
+        </h2>
+      </div>
+      <div>
+      <div className="my-10 mx-4">
+        <h1 className="text-violet-400 text-4xl font-bold underline underline-offset-8 text-center">
+           Real Reviews From The Last Masterclass 
+        </h1>
+      </div>
+      <div className="flex flex-col items-center mx-6">
+
+        <Image  width={500} height={200} src="https://ik.imagekit.io/jsklle928/Online_/IMG_7428.JPG?updatedAt=1689023231315"
+          alt="client testimonial" />
+        <Image className="mt-4" width={500} height={200} src="https://ik.imagekit.io/jsklle928/Online_/IMG_7429.JPG?updatedAt=1689023231013"
+          alt="client testimonial"/>
+        <Image className="mt-4" width={500} height={200} src="https://ik.imagekit.io/jsklle928/Online_/IMG_7430.JPG?updatedAt=1689023232001"
+          alt="client testimonial"/>
+        <Image className="mt-4" width={500} height={200} src="https://ik.imagekit.io/jsklle928/Online_/IMG_7433.JPG?updatedAt=1689023230989"
+          alt="client testimonial"/>
+        <Image className="mt-4" width={500} height={200} src="https://ik.imagekit.io/jsklle928/Online_/IMG_7431.JPG?updatedAt=1689023232005"
+          alt="client testimonial"/>
+        <Image className="mt-4" width={500} height={100} src="https://ik.imagekit.io/jsklle928/Online_/IMG_7432.JPG?updatedAt=1689023231028"
+          alt="client testimonial"/>
+      </div>
+      
+      <div>
+
+      </div>
+        
+      </div>
+    </div>
+  );
 }
+
+export default page;
