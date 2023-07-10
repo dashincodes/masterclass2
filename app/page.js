@@ -57,7 +57,7 @@ function page() {
         <h3 className="py-2 capitalize">
           <span className="text-2xl">✅</span> Discover the techniques for
           <span className="text-violet-400 capitalize pl-1">
-            Pricing your menu competitevely while still maintaining excellent
+            Pricing your menu competitively while still maintaining excellent
             profit margins{" "}
           </span>
         </h3>
@@ -95,7 +95,7 @@ function page() {
         </h2>
         <h2 className="mx-6 mt-4 md:mt-8 text-center text-lg capitalize">
           🔥 If you can&apos;t make the live call there will be a full replay
-          avaialable for you for that never expires.
+          available for you for that never expires.
         </h2>
         <h2 className="mx-6 mt-4 md:mt-8  text-center text-lg capitalize">
           🔥 There will be a live Q&A call after the presentation where you can
