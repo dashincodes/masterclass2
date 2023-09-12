@@ -10,7 +10,7 @@ function page() {
         There are officially only 18 Spots Left! 🎉
       </div>
       <div className="md:w-1/2 w-full   mt-20 text-white flex flex-col items-center">
-        <h1 className="md:text-[4.2rem] text-[2.2rem] md:mx-0 mx-10 font-semibold text-center capitalize leading-[2.6rem] md:leading-[5.2rem]">
+        <h1 className="md:text-[4.2rem] text-[2rem] md:mx-0 mx-10 font-semibold text-center capitalize leading-[2.6rem] md:leading-[5.2rem]">
           Master the business of food 💰🍗
         </h1>
         <div className=" mx-16">
@@ -24,16 +24,23 @@ function page() {
         </div>
       </div>
       <div className="flex w-full flex-col items-center mt-6 mb-6 md:-mt-12">
-        <iframe
-          title="Live Masterclass"
-          src="https://player.vimeo.com/video/863295863?h=17f99bc91f"
-          frameborder="0"
-          allowfullscreen
-          className="md:w-[640px] md:h-[564px]  w-full"
-        ></iframe>
+        <div
+          className="flex w-full flex-col items-center mt-6 mb-6 md:-mt-12 relative"
+          style={{ paddingTop: "56.25%" }}
+        >
+          {" "}
+          {/* 56.25% is for 16:9 aspect ratio */}
+          <iframe
+            title="Live Masterclass"
+            src="https://player.vimeo.com/video/863295863?h=17f99bc91f"
+            frameborder="0"
+            allowfullscreen
+            className="absolute top-0 md:top-32 w-[90%] h-[90%] md:w-1/2 md:h-1/2"
+          ></iframe>
+        </div>
       </div>
-      <div className="flex md:flex-row flex-col justify-between w-3/4  pb-24 md:-mt-10 md:flex-nowrap flex-wrap item-center">
-        <div className="md:w-1/3 flex flex-col items-center ">
+      <div className="flex md:flex-row flex-col justify-between w-3/4  pb-24 md:-mt-48 md:flex-nowrap flex-wrap item-center">
+        <div className="md:w-1/3 flex flex-col items-center  ">
           <img
             alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
@@ -43,7 +50,7 @@ function page() {
             "The masterclass was a major win for my business"
           </h3>
         </div>
-        <div className="md:w-1/3 flex flex-col items-center">
+        <div className="md:w-1/3 flex flex-col items-center md:mt-0 mt-6">
           <img
             alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
@@ -53,21 +60,21 @@ function page() {
             "The masterclass was truly amazing"
           </h3>
         </div>
-        <div className="md:w-1/3 flex flex-col items-center">
+        <div className="md:w-1/3 flex flex-col items-center md:mt-0 mt-6">
           <img
             alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
           <h3 className="text-white text-center mt-2 font-thin">
-            "We&#34;re definitely turning a corner for the better."
+            "We&#39;re definitely turning a corner for the better."
           </h3>
         </div>
       </div>
       <div className="flex flex-col md:flex-nowrap flex-wrap items-center">
         <div>
           <h1 className="text-white text-6xl font-bold my-4 md:mx-0 mx-4 text-center">
-            What&#34;s Inside?
+            What&#39;s Inside?
           </h1>
         </div>
         <div className="flex  md:w-3/4 mt-12 md:flex-nowrap flex-wrap md:mx-0 mx-2">
@@ -82,7 +89,7 @@ function page() {
             </h3>
             <h4 className="text-white font-thin text-center mt-3">
               Zero fluff training from Dashin, that will be full of tried and
-              true knowledge you won&#34;t find anywhere else
+              true knowledge you won&#39;t find anywhere else
             </h4>
           </div>
           <div className="md:w-1/2 flex flex-col items-center mx-6 md:mt-0 mt-20">
@@ -166,7 +173,7 @@ function page() {
 
         <div className="text-white md:w-1/4 md:mx-6 mx-2 md:my-0 my-8">
           <h3 className="text-sm font-thin text-left leading-6 pb-4">
-            Ok, so the masterclass was a major win for my business. I&#34;ve
+            Ok, so the masterclass was a major win for my business. I&#39;ve
             struggled to figure out how to make social media work for my
             business. The masterclass went into great detail. We learned really
             good tips and tricks on how to build our pages and gain more local
@@ -184,7 +191,7 @@ function page() {
           <h3 className="text-sm font-thin text-left leading-6 pb-4">
             Dashin, thank yo uso much for sharing information that would take
             hours of research and a lot of trial and error into the session
-            today. Can&#34;t wait to put it in practice.
+            today. Can&#39;t wait to put it in practice.
           </h3>
           <img
             alt="stars"
@@ -194,13 +201,13 @@ function page() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center md:mt-20 mt-0">
+      <div className="flex flex-col items-center md:mt-20 -mt-10">
         <h2 className="text-white text-5xl font-bold text-center">
-          Choose your package
+          Reserve Your Seat
         </h2>
         <h3 className="text-white text-xl font-extralight mt-6 opacity-60 md:w-1/2 md:mx-0 mx-12 text-center leading-8 ">
-          All plans have full access to all trainings, features and resources.
-          Some plans have additional bonuses
+          Reserve your virtual seat to the FoodBiz Growth Live Masterclass
+          before they fill up, remember there are only 20 seats available
         </h3>
       </div>
 
