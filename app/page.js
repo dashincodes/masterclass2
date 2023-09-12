@@ -58,14 +58,14 @@ function page() {
             className="w-28"
           />
           <h3 className="text-white text-center mt-2 font-thin">
-            "We&#39;re definitely turning a corner for the better."
+            "We&quot;re definitely turning a corner for the better."
           </h3>
         </div>
       </div>
       <div className="flex flex-col md:flex-nowrap flex-wrap items-center">
         <div>
           <h1 className="text-white text-6xl font-bold my-4 md:mx-0 mx-4 text-center">
-            What&#39;s Inside?
+            What&quot;s Inside?
           </h1>
         </div>
         <div className="flex  md:w-3/4 mt-12 md:flex-nowrap flex-wrap md:mx-0 mx-2">
@@ -80,7 +80,7 @@ function page() {
             </h3>
             <h4 className="text-white font-thin text-center mt-3">
               Zero fluff training from Dashin, that will be full of tried and
-              true knowledge you won&#39;t find anywhere else
+              true knowledge you won&quot;t find anywhere else
             </h4>
           </div>
           <div className="md:w-1/2 flex flex-col items-center mx-6 md:mt-0 mt-20">
@@ -164,7 +164,7 @@ function page() {
 
         <div className="text-white md:w-1/4 md:mx-6 mx-2 md:my-0 my-8">
           <h3 className="text-sm font-thin text-left leading-6 pb-4">
-            Ok, so the masterclass was a major win for my business. I&#39;ve
+            Ok, so the masterclass was a major win for my business. I&quot;ve
             struggled to figure out how to make social media work for my
             business. The masterclass went into great detail. We learned really
             good tips and tricks on how to build our pages and gain more local
@@ -182,7 +182,7 @@ function page() {
           <h3 className="text-sm font-thin text-left leading-6 pb-4">
             Dashin, thank yo uso much for sharing information that would take
             hours of research and a lot of trial and error into the session
-            today. Can&#39;t wait to put it in practice.
+            today. Can&quot;t wait to put it in practice.
           </h3>
           <img
             alt="stars"
