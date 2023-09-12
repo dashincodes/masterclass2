@@ -36,7 +36,7 @@ function page() {
           ></iframe>
         </div>
 
-        <a href="https://buy.stripe.com/bIY4hGcyJ8Oxbwk9Bw">
+        <a href="https://buy.stripe.com/8wM7tSaqB8Ox6c0fZV">
           <div className="flex flex-col items-center ">
             {" "}
             <button className="hover:cursor-pointer   bg-gradient-to-r from-violet-800 to-violet-400 w-56 py-3 rounded-full text-lg z-10">
@@ -230,7 +230,7 @@ function page() {
           <h4>PDF Resources</h4>
           <h4>Community Access</h4>
 
-          <a href="https://buy.stripe.com/bIY4hGcyJ8Oxbwk9Bw">
+          <a href="https://buy.stripe.com/8wM7tSaqB8Ox6c0fZV">
             <div className="flex flex-col items-center mt-6 mb-4 bg-gradient-to-r from-violet-800 to-violet-500 w-56 py-3 rounded-full text-lg">
               <button className="font-bold text-xl">Join Now</button>
             </div>
