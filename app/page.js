@@ -6,7 +6,7 @@ import React from "react";
 function page() {
   return (
     <div className="flex flex-col items-center min-h-screen bg-gradient-to-r from-black to-slate-900">
-      <div className="bg-gradient-to-r from-violet-800 to-violet-400 w-full text-center font-semibold py-1 capitalize fixed top-0 z-10">
+      <div className="bg-gradient-to-r from-violet-800 to-violet-400 w-full text-center font-semibold py-1 capitalize fixed top-0 z-20">
         There are officially only 18 Spots Left! 🎉
       </div>
       <div className="md:w-1/2 w-full   mt-20 text-white flex flex-col items-center">
@@ -15,7 +15,7 @@ function page() {
         </h1>
         <div className=" mx-16">
           <h2 className="md:text-xl text-md text-center mt-2 md:leading-[2.3rem] opacity-70 font-light">
-            Private live training for motivated food entrepreneurs wanting ot
+            Private live training for motivated food entrepreneurs wanting to
             reach the next level of their business.
           </h2>
         </div>
