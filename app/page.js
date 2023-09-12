@@ -19,13 +19,10 @@ function page() {
             reach the next level of their business.
           </h2>
         </div>
-        <div className="flex flex-col items-center mt-4 bg-gradient-to-r from-violet-800 to-violet-400 w-56 py-3 rounded-full text-lg">
-          <button className="hover:cursor-pointer">Join The Masterclass</button>
-        </div>
       </div>
       <div className="flex w-full flex-col items-center mt-6 mb-6 md:-mt-12">
         <div
-          className="flex w-full flex-col items-center mt-6 mb-6 md:-mt-12 relative"
+          className="flex w-full flex-col items-center mt-6  md:-mt-12 relative md:-mb-48"
           style={{ paddingTop: "56.25%" }}
         >
           {" "}
@@ -38,8 +35,17 @@ function page() {
             className="absolute top-0 md:top-32 w-[90%] h-[90%] md:w-1/2 md:h-1/2"
           ></iframe>
         </div>
+
+        <a href="https://buy.stripe.com/bIY4hGcyJ8Oxbwk9Bw">
+          <div className="flex flex-col items-center ">
+            {" "}
+            <button className="hover:cursor-pointer   bg-gradient-to-r from-violet-800 to-violet-400 w-56 py-3 rounded-full text-lg z-10">
+              Join The Masterclass
+            </button>
+          </div>
+        </a>
       </div>
-      <div className="flex md:flex-row flex-col justify-between w-3/4  pb-24 md:-mt-48 md:flex-nowrap flex-wrap item-center">
+      <div className="flex md:flex-row flex-col justify-between w-3/4  pb-24 mt-6 md:flex-nowrap flex-wrap item-center">
         <div className="md:w-1/3 flex flex-col items-center  ">
           <img
             alt="stars"
@@ -139,7 +145,7 @@ function page() {
         </div>
       </div>
 
-      <div className="md:mt-32 mt-16 mx-16 flex justify-around flex-wrap mb-20">
+      <div className="md:mt-32 mt-16 mx-16 flex justify-around md:flex-nowrap flex-wrap mb-20">
         <div className="text-white md:w-1/4 md:mx-6 mx-2 md:my-0 my-8">
           <h3 className="text-sm font-thin text-left leading-6 pb-4">
             The masterclass oh boy!!! Where do I start? Dashin gave info and
@@ -211,9 +217,9 @@ function page() {
         </h3>
       </div>
 
-      <div className="md:w-3/4 mt-12 flex md:flex-row flex-col items-center pb-20 md:pb-32 md:flex-nowrap flex-wrap">
+      <div className="md:w-3/4 mt-2 flex  flex-col items-center pb-20 md:pb-32 ">
         <div className="text-zinc-400 bg-black bg-opacity-40 md:w-1/3 flex flex-col items-center py-12 border-t-2 border-t-violet-300 mx-2 md:px-0 px-16 mt-8">
-          <h3 className="text-3xl font-semibold py-1">Standard</h3>
+          <h3 className="text-3xl font-semibold py-1">1 Seat</h3>
           <div className="flex flex-col items-center py-4">
             <h4 className="text-6xl font-bold text-violet-500">$97</h4>
             <h5>/one time payment</h5>
@@ -224,43 +230,11 @@ function page() {
           <h4>PDF Resources</h4>
           <h4>Community Access</h4>
 
-          <div className="flex flex-col items-center mt-6 mb-4 bg-gradient-to-r from-violet-800 to-violet-500 w-56 py-3 rounded-full text-lg">
-            <button className="font-bold text-xl">Join Now</button>
-          </div>
-        </div>
-
-        <div className="text-zinc-400 bg-black bg-opacity-40 md:w-1/3 flex flex-col items-center py-12 border-t-2 border-t-violet-300 md:px-0 px-16 mt-8 mx-2">
-          <h3 className="text-3xl font-semibold py-1">Pro</h3>
-          <div className="flex flex-col items-center py-4">
-            <h4 className="text-6xl font-bold text-violet-500">$197</h4>
-            <h5>/one time payment</h5>
-          </div>
-          <h4 className="text-xl underline py-1">Includes:</h4>
-          <h4>Live Training</h4>
-          <h4>Live Q&A</h4>
-          <h4>PDF Resources</h4>
-          <h4>Community Access</h4>
-
-          <div className="flex flex-col items-center mt-6 mb-4 bg-gradient-to-r from-violet-800 to-violet-500 w-56 py-3 rounded-full text-lg">
-            <button className="font-bold text-xl">Join Now</button>
-          </div>
-        </div>
-
-        <div className="text-zinc-400 bg-black bg-opacity-40 md:w-1/3 flex flex-col items-center py-12 border-t-2 border-t-violet-300 md:px-0 px-16 mt-8  mx-2">
-          <h3 className="text-3xl font-semibold py-1">Advanced</h3>
-          <div className="flex flex-col items-center py-4">
-            <h4 className="text-6xl font-bold text-violet-500">$297</h4>
-            <h5>/one time payment</h5>
-          </div>
-          <h4 className="text-xl underline py-1">Includes:</h4>
-          <h4>Live Training</h4>
-          <h4>Live Q&A</h4>
-          <h4>PDF Resources</h4>
-          <h4>Community Access</h4>
-
-          <div className="flex flex-col items-center mt-6 mb-4 bg-gradient-to-r from-violet-800 to-violet-500 w-56 py-3 rounded-full text-lg">
-            <button className="font-bold text-xl">Join Now</button>
-          </div>
+          <a href="https://buy.stripe.com/bIY4hGcyJ8Oxbwk9Bw">
+            <div className="flex flex-col items-center mt-6 mb-4 bg-gradient-to-r from-violet-800 to-violet-500 w-56 py-3 rounded-full text-lg">
+              <button className="font-bold text-xl">Join Now</button>
+            </div>
+          </a>
         </div>
       </div>
     </div>
