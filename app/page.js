@@ -33,6 +33,7 @@ function page() {
       <div className="flex md:flex-row flex-col justify-between w-3/4  pb-24 md:-mt-10 md:flex-nowrap flex-wrap item-center">
         <div className="md:w-1/3 flex flex-col items-center ">
           <img
+            alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
@@ -42,6 +43,7 @@ function page() {
         </div>
         <div className="md:w-1/3 flex flex-col items-center">
           <img
+            alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
@@ -51,23 +53,25 @@ function page() {
         </div>
         <div className="md:w-1/3 flex flex-col items-center">
           <img
+            alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
           <h3 className="text-white text-center mt-2 font-thin">
-            "We're definitely turning a corner for the better."
+            "We&#39;re definitely turning a corner for the better."
           </h3>
         </div>
       </div>
       <div className="flex flex-col md:flex-nowrap flex-wrap items-center">
         <div>
           <h1 className="text-white text-6xl font-bold my-4 md:mx-0 mx-4 text-center">
-            What's Inside?
+            What&#39;s Inside?
           </h1>
         </div>
         <div className="flex  md:w-3/4 mt-12 md:flex-nowrap flex-wrap md:mx-0 mx-2">
           <div className="md:w-1/2  flex flex-col items-center mx-6 md:mt-0">
             <img
+              alt="Training"
               src="https://ik.imagekit.io/jsklle928/Screenshot%202023-09-11%20at%204.13.21%20PM.png?updatedAt=1694463409344"
               className=""
             />
@@ -76,11 +80,12 @@ function page() {
             </h3>
             <h4 className="text-white font-thin text-center mt-3">
               Zero fluff training from Dashin, that will be full of tried and
-              true knowledge you won't find anywhere else
+              true knowledge you won&#39;t find anywhere else
             </h4>
           </div>
           <div className="md:w-1/2 flex flex-col items-center mx-6 md:mt-0 mt-20">
             <img
+              alt="questions and answers"
               src="https://ik.imagekit.io/jsklle928/Screenshot%202023-09-11%20at%2011.43.45%20AM.png?updatedAt=1694463503243G"
               className=""
             />
@@ -95,6 +100,7 @@ function page() {
         <div className="flex  md:w-3/4 md:mt-16 mt-0 md:flex-nowrap flex-wrap  ">
           <div className="md:w-1/2 flex flex-col items-center mx-6 md:mt-0 mt-20">
             <img
+              alt="pdf resources"
               src="https://assets.website-files.com/62d88eed5c7a8f350b8f904b/63e42cd5a0c727c3773c01bb_Screenshot%202023-02-08%20at%2011.10.53%20AM.png"
               className=""
             />
@@ -109,6 +115,7 @@ function page() {
           </div>
           <div className="md:w-1/2 flex flex-col items-center mx-6 md:mt-0 mt-20">
             <img
+              alt="community"
               src="https://ik.imagekit.io/jsklle928/Screenshot%202023-09-11%20at%204.34.19%20PM.png?updatedAt=1694464488111"
               className=""
             />
@@ -133,6 +140,7 @@ function page() {
             what he teaches you are definitely leaving money on the table!!!
           </h3>
           <img
+            alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
@@ -148,6 +156,7 @@ function page() {
             this class and anything Dashin offers!
           </h3>
           <img
+            alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
@@ -155,7 +164,7 @@ function page() {
 
         <div className="text-white md:w-1/4 md:mx-6 mx-2 md:my-0 my-8">
           <h3 className="text-sm font-thin text-left leading-6 pb-4">
-            Ok, so the masterclass was a major win for my business. I've
+            Ok, so the masterclass was a major win for my business. I&#39;ve
             struggled to figure out how to make social media work for my
             business. The masterclass went into great detail. We learned really
             good tips and tricks on how to build our pages and gain more local
@@ -163,6 +172,7 @@ function page() {
             Food Truck King!
           </h3>
           <img
+            alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
@@ -172,9 +182,10 @@ function page() {
           <h3 className="text-sm font-thin text-left leading-6 pb-4">
             Dashin, thank yo uso much for sharing information that would take
             hours of research and a lot of trial and error into the session
-            today. CAn't wait to put it in practice.
+            today. Can&#39;t wait to put it in practice.
           </h3>
           <img
+            alt="stars"
             src="https://ik.imagekit.io/jsklle928/stars-03.png?updatedAt=1694439967478"
             className="w-28"
           />
