@@ -7,7 +7,7 @@ function page() {
   return (
     <div className="flex flex-col items-center min-h-screen bg-gradient-to-r from-black to-slate-900">
       <div className="bg-gradient-to-r from-violet-800 to-violet-400 w-full text-center font-semibold py-1 capitalize fixed top-0 z-20">
-        There are officially only 18 Spots Left! 🎉
+        There are officially only 16 Spots Left! 🎉
       </div>
       <div className="md:w-1/2 w-full   mt-20 text-white flex flex-col items-center">
         <h1 className="md:text-[4.2rem] text-[2rem] md:mx-0 mx-10 font-semibold text-center capitalize leading-[2.6rem] md:leading-[5.2rem]">
