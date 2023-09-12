@@ -211,7 +211,7 @@ function page() {
         <h2 className="text-white text-5xl font-bold text-center">
           Reserve Your Seat
         </h2>
-        <h3 className="text-white text-xl font-extralight mt-6 opacity-60 md:w-1/2 md:mx-0 mx-12 text-center leading-8 ">
+        <h3 className="text-white md:text-xl text-md font-extralight mt-6 opacity-60 md:w-1/2 md:mx-0 mx-12 text-center leading-8 ">
           Reserve your virtual seat to the FoodBiz Growth Live Masterclass
           before they fill up, remember there are only 20 seats available
         </h3>
