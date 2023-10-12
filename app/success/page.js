@@ -15,7 +15,7 @@ function page() {
       </div>
       <div className="md:w-1/2 mt-2 ">
         <h2 className="md:text-6xl text-4xl font-extrabold text-center text-white mt-4">
-          Click Into Customer Mini Course!
+          Clicks Into Customer Mini Course!
         </h2>
       </div>
 
