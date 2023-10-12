@@ -20,23 +20,13 @@ function page() {
       </div>
 
       <div>
-        <h2 className="text-xl text-white mt-4 opacity-70">
-          Check your email for the invite to join! Or you can tap on the button
-          below to join instantly! 👇
+        <h2 className="text-xl text-center text-white mt-4 opacity-70">
+          Check your email for the invite to join! You should receive this an email from "Skool" within the next 5 minutes! 
         </h2>
       </div>
-      <div className="mt-6">
-        <a
-          href="https://www.facebook.com/groups/125377357324707"
-          target="blank"
-        >
-          <button className="bg-gradient-to-r from-violet-800 to-violet-400 px-8 py-4 rounded-full text-xl font-bold">
-            Access Click To Customers
-          </button>
-        </a>
-      </div>
+      \
     </div>
-  );
+  );😃
 }
 
 export default page;
