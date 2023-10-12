@@ -10,18 +10,19 @@ function page() {
       </div>
       <div className="">
         <h3 className="md:text-3xl text-xl text-white  opacity-70 ">
-          Your spot has officially been reserved for:
+          You have officially gained access to
         </h3>
       </div>
       <div className="md:w-1/2 mt-2 ">
         <h2 className="md:text-6xl text-4xl font-extrabold text-center text-white mt-4">
-          The FoodBiz Growth Live Masterclass!
+          Click Into Customer Mini Course!
         </h2>
       </div>
 
       <div>
         <h2 className="text-xl text-white mt-4 opacity-70">
-          Join Our Private Group Here:
+          Check your email for the invite to join! Or you can tap on the button
+          below to join instantly! 👇
         </h2>
       </div>
       <div className="mt-6">
@@ -30,7 +31,7 @@ function page() {
           target="blank"
         >
           <button className="bg-gradient-to-r from-violet-800 to-violet-400 px-8 py-4 rounded-full text-xl font-bold">
-            Join The Private Facebook Group
+            Access Click To Customers
           </button>
         </a>
       </div>
