@@ -21,12 +21,12 @@ function page() {
 
       <div>
         <h2 className="text-xl text-center text-white mt-4 opacity-70">
-          Check your email for the invite to join! You should receive this an email from "Skool" within the next 5 minutes! 
+          Check your email for the invite to join! You should receive this an
+          email from "Skool" within the next 5 minutes! 😃
         </h2>
       </div>
-      \
     </div>
-  );😃
+  );
 }
 
 export default page;
