@@ -101,14 +101,6 @@ function Page() {
           what you'll learn
         </h2>
       </div>
-      <div>
-        <div className="mt-4">
-          <h3 className="text-white md:text-2xl text-lg opacity-70 ">
-            Discover My 3-Step Method To Make Customers <br /> Fall in Love with
-            Your Brand and Crave Your Food.
-          </h3>
-        </div>
-      </div>
     </div>
   );
 }
