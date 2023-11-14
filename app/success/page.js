@@ -10,20 +10,17 @@ function page() {
       </div>
       <div className="">
         <h3 className="md:text-3xl text-xl text-white  opacity-70 ">
-          You have officially gained access to
+          Your spot has officially been reserved for:
         </h3>
       </div>
       <div className="md:w-1/2 mt-2 ">
         <h2 className="md:text-6xl text-4xl font-extrabold text-center text-white mt-4">
-          Clicks Into Customer Mini Course!
+          The Food Truck Marketing Bootcamp!
         </h2>
-      </div>
-
-      <div>
-        <h2 className="text-xl text-center text-white mt-4 opacity-70">
-          Check your email for the invite to join! You should receive an email
-          from "Skool" within the next 5 minutes! 😃
-        </h2>
+        <h3 className="md:text-2xl text-lg text-white text-center mt-4 opacity-70 ">
+          Expect an email from me personally by the end of today for additional
+          details about the live call:
+        </h3>
       </div>
     </div>
   );
