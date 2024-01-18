@@ -56,10 +56,12 @@ function Page() {
     height: "100%",
   };
 
+  const numberOfSpots = 18;
+
   return (
     <div className="flex flex-col items-center md:justify-center  min-h-screen bg-gradient-to-r from-black to-slate-900 md:pb-20 pb-12">
       <div className="bg-gradient-to-r from-violet-800 to-violet-400 w-full text-center font-semibold py-2 capitalize fixed top-0 z-20">
-        There are officially only 19 spots left!
+        There are officially only {numberOfSpots} spots left!
       </div>
       <div className="md:w-4/6 w-full mt-20 text-white flex flex-col items-center md:mt-24">
         <h1 className="md:text-[4.2rem] text-[2.2rem] md:mx-0 mx-8 font-semibold text-center md:leading-[4.5rem]  leading-[2.8rem]  capitalize">
@@ -132,7 +134,9 @@ function Page() {
             </button>
           </a>
 
-          <h4 className="text-zinc-500 mt-3">(Only 20 Spots Available)</h4>
+          <h4 className="text-zinc-500 mt-3">
+            (Only {numberOfSpots} Spots Left)
+          </h4>
         </div>
       </div>
       <div className="mt-4 mb-4">
@@ -211,14 +215,16 @@ function Page() {
         </div>
       </div> */}
 
-      <div>
+      <div className="flex flex-col items-center">
         <a href="https://buy.stripe.com/00g7tS0Q14yh43S7tu">
           {" "}
           <button className="hover:cursor-pointer bg-gradient-to-r from-violet-800 to-violet-400 w-56 py-3 rounded-full mt-4 text-lg z-10 font-bold">
             Reserve Your Spot
           </button>
         </a>
-        <h4 className="text-zinc-500 mt-3">(Only 20 Spots Available)</h4>
+        <h4 className="text-zinc-500 mt-3">
+          (Only {numberOfSpots} Spots Left)
+        </h4>
       </div>
     </div>
   );
