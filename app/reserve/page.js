@@ -65,14 +65,13 @@ function Page() {
       </div>
       <div className="md:w-4/6 w-full mt-20 text-white flex flex-col items-center md:mt-24">
         <h1 className="md:text-[4.2rem] text-[2.2rem] md:mx-0 mx-8 font-semibold text-center md:leading-[4.5rem]  leading-[2.8rem]  capitalize">
-          Are you ready to make{""}
-          <span className="text-violet-400"> 2024 your best year</span> for your
-          food business?
+          {""}
+          <span className="text-violet-400">Explode Your Revenue In 2024</span>
         </h1>
         <div className=" md:mx-8 mx-8 md:mt-2 mt-2 md:w-5/6">
           <h2 className="md:text-2xl text-base text-center mt-2 md:leading-[2.3rem] leading-7 opacity-70 font-light capitalize">
-            Join me and I will teach you how to add a minimum of 120k in annual
-            revenue this year..or your money back" 🚚📈🌮
+            Join me and I will teach you how to add a minimum of $120,000 in
+            annual revenue..or your money back" 🚚📈🌮
           </h2>
         </div>
       </div>
