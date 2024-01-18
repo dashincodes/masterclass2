@@ -41,26 +41,63 @@ function Page() {
     }
   }
 
+  const iframeContainerStyle = {
+    padding: "56.25% 0 0 0",
+    position: "relative",
+    width: "100%",
+    height: "0",
+  };
+
+  const iframeStyle = {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+  };
+
   return (
     <div className="flex flex-col items-center md:justify-center  min-h-screen bg-gradient-to-r from-black to-slate-900 md:pb-20 pb-12">
       <div className="bg-gradient-to-r from-violet-800 to-violet-400 w-full text-center font-semibold py-2 capitalize fixed top-0 z-20">
-        Food Truck Marketing Bootcamp! - Monday 7PM EST 🔥
+        There are officially only 19 spots left!
       </div>
-      <div className="md:w-4/6 w-full mt-20 text-white flex flex-col items-center md:mt-32">
-        <h2></h2>
-        <h1 className="md:text-[4.2rem] text-[2.6rem] md:mx-0 mx-8 font-semibold text-center md:leading-[4.5rem]  leading-[3.2rem]  capitalize">
-          discover how to{" "}
-          <span className="text-violet-400">
-            attract and retain loyal customers
-          </span>{" "}
-          for your food truck 💰🍗
+      <div className="md:w-4/6 w-full mt-20 text-white flex flex-col items-center md:mt-24">
+        <h1 className="md:text-[4.2rem] text-[2.2rem] md:mx-0 mx-8 font-semibold text-center md:leading-[4.5rem]  leading-[2.8rem]  capitalize">
+          Are you ready to make{""}
+          <span className="text-violet-400"> 2024 your best year</span> for your
+          food business?
         </h1>
         <div className=" md:mx-8 mx-8 md:mt-2 mt-2 md:w-5/6">
-          <h2 className="md:text-2xl text-lg text-center mt-2 md:leading-[2.3rem] opacity-70 font-light capitalize">
-            Not sure how to maximize online traffic for your food truck? Dive in
-            and discover strategies to transform mere clicks into loyal
-            customers and sizzling sales!" 🚚📈🌮
+          <h2 className="md:text-2xl text-base text-center mt-2 md:leading-[2.3rem] leading-7 opacity-70 font-light capitalize">
+            Join me and I will teach you how to add a minimum of 120k in annual
+            revenue this year..or your money back" 🚚📈🌮
           </h2>
+        </div>
+      </div>
+      <div className="md:w-2/4 md:mt-6 mt-4 w-full md:px-0 px-4">
+        <div
+          className="video-container"
+          style={{
+            width: "100%",
+            height: "auto",
+            position: "relative",
+            paddingBottom: "56.25%",
+          }}
+        >
+          <iframe
+            src="https://player.vimeo.com/video/903882173"
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              frameBorder: "0",
+              allow: "autoplay; fullscreen; picture-in-picture",
+              allowFullScreen: true,
+            }}
+            title="vsl final post"
+          ></iframe>
         </div>
       </div>
       <div className="flex w-full flex-col items-center -mt-12 mb-6 md:-mt-12">
@@ -88,7 +125,7 @@ function Page() {
           </div>
           {errorMsg && <div className="text-red-500 mt-2">{errorMsg}</div>} */}
 
-          <a href="https://buy.stripe.com/dR6eXPbba2FleQM6oz">
+          <a href="https://buy.stripe.com/00g7tS0Q14yh43S7tu">
             {" "}
             <button className="hover:cursor-pointer bg-gradient-to-r from-violet-800 to-violet-400 w-56 py-3 rounded-full mt-4 text-lg z-10 font-bold">
               Reserve Your Spot
@@ -152,7 +189,7 @@ function Page() {
           customers.
         </h4>
       </div>
-
+      {/* 
       <div className="flex md:flex-row flex-col items-center mt-10">
         <div className="w-96 m-6">
           <img
@@ -172,10 +209,10 @@ function Page() {
             alt="testimonial"
           />
         </div>
-      </div>
+      </div> */}
 
       <div>
-        <a href="https://buy.stripe.com/dR6eXPbba2FleQM6oz">
+        <a href="https://buy.stripe.com/00g7tS0Q14yh43S7tu">
           {" "}
           <button className="hover:cursor-pointer bg-gradient-to-r from-violet-800 to-violet-400 w-56 py-3 rounded-full mt-4 text-lg z-10 font-bold">
             Reserve Your Spot
